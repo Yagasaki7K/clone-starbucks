@@ -67,13 +67,14 @@ section.sobre {
     width: 1200px;
     height: 1200px;
     border-radius: 50%;
-    background-color: #017143;
+    background: #017143;
 }
 
 @media screen and (max-width: 1366px) {
     .extras {
         bottom: -650px;
         right: -700px;
+        height: 1170px;
     }
 }
 
@@ -110,7 +111,7 @@ section.sobre {
 
 .texto-sobre p {
     margin: 20px 0;
-    color: black;
+    color: #000;
     font-size: 14px;
     font-weight: bold;
     max-width: 800px;
@@ -137,8 +138,8 @@ section.sobre {
 
 .texto-sobre .botao {
     border: none;
-    background-color: #017143;
-    border: 1px solid #017143;
+    background: #017143;
+    border: 0.5px solid #000;
     color: #fff;
     border-radius: 45px;
     padding: 8px 15px;
@@ -147,9 +148,9 @@ section.sobre {
 
 .texto-sobre .botao:hover {
     transition: 2s;
-    background: #fff;
-    border: 1px solid #000;
-    color: #017143;
+    opacity: 0.7;
+    border: 0.5px solid #000;
+    color: #fff;
 }
 
 .some-coffee {
@@ -163,13 +164,18 @@ section.sobre {
 .coffee {
     width: 50px;
     margin: 25px;
+    cursor: pointer;
+}
+
+.coffee:hover {
+    transition: 2s;
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 1366px) {
     .coffee {
-        display: none;
+        margin: 50px 25px -25px 25px;
     }
-}
 
 .some-coffee .images {
     width: 100%;
