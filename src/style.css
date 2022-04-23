@@ -162,8 +162,8 @@ section.sobre {
 }
 
 .coffee {
-    width: 50px;
-    margin: 25px;
+    width: 60px;
+    margin-right: 100px;
     cursor: pointer;
 }
 
@@ -176,6 +176,7 @@ section.sobre {
     .coffee {
         margin: 50px 25px -25px 25px;
     }
+}
 
 .some-coffee .images {
     width: 100%;
